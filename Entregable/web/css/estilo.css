@@ -1,0 +1,332 @@
+html
+{
+	height:100%;
+}
+
+body
+{
+	font-family:Arial;
+	margin-top:0px;
+        
+        margin:auto;	
+}
+
+.contenedorWeb
+{
+    background-color:lightgray;
+}
+
+.contenedor
+{   
+    width:85%;
+    margin:auto;
+    padding-top:10px;
+    height:1500px;
+    background-color: white;
+}
+
+.cabecera
+{
+   height: 100px;
+   margin: 30px 0px 0px 150px;
+}
+.imagen
+{
+    width: 40px;
+    float:left;
+}
+.otrabusqueda
+{
+    display:inline;
+    float:right;
+    margin:5px 120px 10px 10px;
+    color: navy;
+    font-size:20px;
+}
+
+.barraUsuario
+{
+    background-color:limegreen;
+    color:white;
+    height:30px;
+    text-align:center;
+    margin:auto;
+}
+.botonRegistrar
+{
+   margin-left:20px;
+   font-size:15px;
+   margin-right:10px;
+   border-style:groove;
+   background-color:white;
+}
+
+.fondoTitulo { 
+    background-image:url("../images/img2.jpg");
+    height:250px;
+    margin:12px 30px 25px 30px;
+    border: 3px outset lightblue;
+}
+
+
+.titulo{
+    padding:90px 30px 0px 100px;
+    font-size: 250%;
+    color:white;
+    float:left;
+}
+
+.barraBusqueda
+{
+  padding-top:90px;
+}
+
+.botonBuscar
+{
+   margin-left:20px;
+   padding: 5px 10px 5px 10px;
+   font-size:100%;
+   border-style:groove;
+   background-color:white;
+   margin-right:20px;
+}
+
+.central
+{
+    clear:both;
+}
+.texto
+{
+    float:left;
+}
+
+.texto1
+{
+    float:left;
+    width: 300px;
+    margin: 30px 20px 10px 60px;
+    border-right: 1px solid lavender;
+    padding-right:50px;
+}
+
+.contenedorT1
+{
+    width:250px;
+    margin:20px 20px 20px 20px;
+    padding:10px 10px 10px 10px;
+    border:1px solid lavender;
+    border-radius: 10px;
+}
+.texto2
+{
+    float:right;
+    width: 300px;
+    margin: 30px 20px 10px 30px;
+    border-right: 1px solid lavender;
+    padding-right:50px;
+}
+
+.banner
+{
+    float:right;
+    width: 250px;
+    margin:30px 30px 10px 30px;
+    height:370px;
+}
+
+
+.tituloCiudad
+{
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:70px;
+    font-size: 400%;
+    font-family: arial;
+    color:white;
+
+}
+
+.contenedorLugares
+{   
+    width:85%;
+    margin:auto;
+    padding-top:10px;
+    height:1000px;
+}
+
+.contenedorlista
+{
+    clear:both;
+    margin-top:20px;
+}
+
+.lista
+{
+    color:white;
+    float:left;
+    border: 1px solid lavender;
+    width:700px;
+    padding:20px 20px 20px 40px;
+    border-radius:10px;
+    background-color: lightblue;
+    opacity:.80;
+}
+
+.contenidoLista
+{
+   color:#1EB50D;
+}
+.itinerarioFondo
+{
+    float:right;
+    width:300px;
+    background-color: lightblue;
+    display: block;
+    opacity:.80;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+.itinerarioContenido
+{
+    padding-left:50px;
+    color:#1EB50D;
+    opacity: .90;
+}
+
+.itinerarioTitulo
+{
+    font-family:arial;
+    font-size:30px;
+    padding-left:20px;
+    display:inline;
+}
+
+.tituloLugar
+{
+    text-align: center;
+    margin:10px 0px 20px 0px;
+    font-size: 50px;
+    font-family:arial;
+    color:#0C7AE8;
+    
+}
+
+.contenido
+{
+    clear:both;
+    float:left;
+    margin:10px 0px 40px 60px;
+    width: 700px;
+}
+
+.itinerarioLugar
+{
+    float:right;
+    width:250px;
+    border: 1px solid lavender;
+    display: block;
+    padding-right:50px;
+    border-radius: 10px;
+    margin:0px 50px 10px 10px;
+}
+
+.imagenLugar
+{
+    float:left;
+    margin-left:5px;
+    margin-right:15px;
+}
+
+.contenedorComentario
+{
+    margin-left:20px;
+    width:400px;
+    float:left;
+    
+}
+.notaP
+{
+    color:#0C7AE8;
+    font-size: 20px;
+}
+
+.comentarioP
+{
+    border-radius: 10px;
+    border: 1px solid lavender;
+    padding:5px 5px 5px 5px;
+}
+
+.contenedorCUsuarios
+{
+    padding: 10px 30px 20px 30px;
+    clear:both;
+}
+
+.fondoComentarios
+{
+    padding-top:40px;
+}
+
+.usuario
+{
+    width:100px;
+    float:left;
+    margin:20px 10px 20px 20px;
+    color:#0C7AE8;
+    font-size: 20px;
+    
+}
+
+.comentarioUsuario
+{
+    padding:20px 20px 20px 20px;
+    margin-left:10px;
+    float:left;
+    width:900px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    margin-bottom:30px;
+}
+
+.nuevoComentario
+{
+    clear:both;
+    padding: 10px 30px 0px 30px;
+    margin-left:20px;
+    
+}
+
+.textArea
+{
+    padding:20px 20px 20px 20px;
+    margin-left:10px;
+    float:right;
+    width:900px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    margin-bottom:10px;
+}
+
+.listaMejores
+{
+    color:#0C7AE8;
+    margin-left:30px;
+    margin-top:32px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    width:700px;
+    padding:20px 20px 20px 40px;
+}
+
+.nuevaBusqueda
+{
+    width:650px;
+    height:200px;
+    padding:100px 0px 0px 60px;
+    font-size:20px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    margin:50px 30px 30px 300px;
+}
